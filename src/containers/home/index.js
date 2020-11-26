@@ -1,3 +1,10 @@
+/*
+ * @Author: duchengdong
+ * @Date: 2020-08-17 10:21:32
+ * @LastEditors: duchengdong
+ * @LastEditTime: 2020-11-26 18:33:52
+ * @Description: 
+ */
 import React from 'react'
 import { push } from 'connected-react-router'
 import { bindActionCreators } from 'redux'
@@ -49,7 +56,7 @@ const mapDispatchToProps = dispatch =>
       incrementAsync,
       decrement,
       decrementAsync,
-      changePage: () => push('/about-us')
+      changePage: () => push('/about')
     },
     dispatch
   )
