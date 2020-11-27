@@ -3,7 +3,6 @@
   "version": "{{projectVersion}}",
   "description": "{{projectDescription}}",
   "private": true,
-  "homepage": "https://create-react-app-redux.now.sh",
   "scripts": {
     "deploy": "now && now alias",
     "start": "react-scripts start",
